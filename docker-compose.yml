@@ -1,0 +1,18 @@
+services:
+  root-backend:
+    extends:
+      file: ./nest/docker-compose.yml
+      service: backend
+
+  root-postgres:
+    extends:
+      file: ./nest/docker-compose.yml
+      service: postgres
+
+  root-frontend:
+    extends:
+      file: ./UI/docker-compose.yml
+      service: frontend
+
+volumes:
+  postgres_data:
