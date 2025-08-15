@@ -19,6 +19,11 @@ services:
       file: ./nest/docker-compose.yml
       service: prisma-studio
 
+  prisma-seed:
+    extends:
+      file: ./nest/docker-compose.yml
+      service: prisma-seed
+
   frontend:
     extends:
       file: ./UI/docker-compose.yml

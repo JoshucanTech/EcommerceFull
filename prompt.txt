@@ -1,0 +1,14 @@
+FOR Lingma Qwen
+
+
+PRODUCT TO ORDER
+PRODUCT TO ORDER FRONTEND
+
+now go through the product, cart, order, shipping and promotion dir in nest/ with the intentions that a user is navigating through it when integrated into frontend. explain to me what users can do, example, users can view product, users can add with the relations, optional fields and more. Do you understand ?
+
+save this last record as PRODUCT TO ORDER. When i call product to order, you will understand that i mean Integration flow with all its results.
+
+now go through the product, cart, and checkout pages in UI/ with the intentions that a user is navigating through the integrated frontend UI. explain to me what users can do, example, users can view product, users can add with the relations, optional fields and more.
+Do you understand ?
+
+save this last record as PRODUCT TO ORDER FRONTEND. When i call product to order frontend, you will understand that i mean this prompt with all its results. do you understand ?
