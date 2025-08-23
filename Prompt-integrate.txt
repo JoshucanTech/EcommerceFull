@@ -1,0 +1,25 @@
+
+
+
+
+1. They only see the final shipping cost for their whole order. 
+
+2. Don't do any of the above. Abstracts everything into a single global shipping speed choice (eg: Standard, Expedited, One-Day, etc.). Unify shipping speeds across vendors Standard/Expedited/etc.
+For the buyer, it looks like one choice.
+
+the backend should resolves the buyer’s choice into the correct carrier/service/vendor. (Check if it's already in place first)
+ 3. The range of the deliveries.
+
+For better clarification:
+if vendor A shipping is express 1 -2 day, standard 3 - 4 days, AND vendor B is express 0 - 1 day, standard 3 - 5 days, premier 7 - 10 days, Then what user should see is during selection is:
+   express 0 - 2 day, standard 3 - 5 days, premier 7 - 10 days,
+Upon selection, they will see what they select, but behind the scene each vendor receives the proper information
+
+If buyer selects Premier (7–10 days)
+
+Vendor B → Premier (7–10 days) is applied.
+Vendor A → has no “Premier” option. The App falls back to the closest available shipping speed that vendor supports (usually Standard).
+
+But in the order confirmation, shipments are split and you see the actual per-vendor dates (one might come faster).
+Shipment 1 (Vendor A): Standard — Arriving Aug 20–22
+Shipment 2 (Vendor B): Premier — Arriving Aug 25–28

@@ -1,14 +1,49 @@
 FOR Lingma Qwen
 
 
-PRODUCT TO ORDER
+PRODUCT TO ORDER BACKEND
 PRODUCT TO ORDER FRONTEND
+
 
 now go through the product, cart, order, shipping and promotion dir in nest/ with the intentions that a user is navigating through it when integrated into frontend. explain to me what users can do, example, users can view product, users can add with the relations, optional fields and more. Do you understand ?
 
-save this last record as PRODUCT TO ORDER. When i call product to order, you will understand that i mean Integration flow with all its results.
 
-now go through the product, cart, and checkout pages in UI/ with the intentions that a user is navigating through the integrated frontend UI. explain to me what users can do, example, users can view product, users can add with the relations, optional fields and more.
-Do you understand ?
+save this last record as PRODUCT TO ORDER BACKEND. When i 
+ call product to order, you will understand that i mean Integration flow with all its results.
 
-save this last record as PRODUCT TO ORDER FRONTEND. When i call product to order frontend, you will understand that i mean this prompt with all its results. do you understand ?
+
+now go through the product, cart, and checkout pages in UI/ with the 
+ intentions that a user is navigating through the integrated frontend UI. 
+ explain to me what users can do, example, users can view product, users can 
+ add with the relations, optional fields and more.
+ Do you understand ?
+
+
+save this last record as PRODUCT TO ORDER FRONTEND. When i call product to 
+ order frontend, you will understand that i mean this prompt with all its results. do you understand ?
+
+
+is the PRODUCT TO ORDER BACKEND fully integrated with PRODUCT TO ORDER FRONTEND ?
+
+
+with the current logic of the code and its integrations, when i add a products from 
+ multiple vendors to cart with different variants, shipping, coupons, what will happen ?
+
+
+Now handle the proper multi-vendor e-commerce system would need significant changes to the 
+ checkout and order creation logic to handle separate orders, payments, and shipping for each vendor. 
+ handle both the frontend and backend. backend should handle most things. Frontend should 
+ follow the existing structure and pattern of code for integration. Dont affect the UI display 
+ on screens like css or tailwindcss for now. do you understand ?
+
+
+are you done ?Now handle the proper multi-vendor e-commerce system and implement the 
+ needed significant changes to the checkout and order creation logic to handle separate orders,
+ payments, and shipping for each vendor. handle both the frontend and backend. 
+ backend should handle most things. Frontend should follow the existing structure 
+ and pattern of code for integration. Dont affect the UI display on screens 
+ like css or tailwindcss for now. When you're through, check if the current logic of the code 
+ and its integrations, when a user add a products from multiple vendors to cart with 
+ different variants, shipping, coupons, check what will happen. If somethings are still missing 
+ for a multivendor checkout process from adding to cart to checkout, then handle it until 
+ everything is professionally completed. do you understand ?
