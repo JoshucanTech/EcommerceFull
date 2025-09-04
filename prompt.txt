@@ -44,6 +44,8 @@ are you done ?Now handle the proper multi-vendor e-commerce system and implement
  and pattern of code for integration. Dont affect the UI display on screens 
  like css or tailwindcss for now. When you're through, check if the current logic of the code 
  and its integrations, when a user add a products from multiple vendors to cart with 
- different variants, shipping, coupons, check what will happen. If somethings are still missing 
+ different variants, shipping, coupons, check what will happen. 
+ 
+ If somethings are still missing 
  for a multivendor checkout process from adding to cart to checkout, then handle it until 
  everything is professionally completed. do you understand ?
