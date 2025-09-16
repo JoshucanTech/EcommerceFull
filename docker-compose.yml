@@ -3,16 +3,28 @@ services:
     extends:
       file: ./nest/docker-compose.yml
       service: backend
+    networks:
+      - backend_network
+      - frontend_network
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
 
   postgres:
     extends:
       file: ./nest/docker-compose.yml
       service: postgres
+    networks:
+      - backend_network
 
   redis:
     extends:
       file: ./nest/docker-compose.yml
       service: redis
+    networks:
+      - backend_network
 
   prisma-studio:
     extends:
@@ -31,7 +43,10 @@ services:
 
 volumes:
   postgres_data:
+  redis_data:
 
 networks:
   frontend_network:
+    driver: bridge
   backend_network:
+    driver: bridge

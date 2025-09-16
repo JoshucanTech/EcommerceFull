@@ -49,3 +49,12 @@ are you done ?Now handle the proper multi-vendor e-commerce system and implement
  If somethings are still missing 
  for a multivendor checkout process from adding to cart to checkout, then handle it until 
  everything is professionally completed. do you understand ?
+
+
+
+ Now go through the backend in the nest/ dir and only read through the models, schemas, modules and its related files of shipping, user, and order. Understand the how order is been created and the different ways shipping address can be assigned or created during order creation. 
+
+Then go through this file current file shipping form with all its relation in the UI/ dir checkout page and components. read and observer if the shipping selection/assignment or creation logic from the backend is fully integrated. If anything is missing concerning shipping address implement it properly.
+You can ask your questions if necessary for better  understanding.
+
+Do you understand ?
