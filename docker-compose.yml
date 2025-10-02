@@ -6,6 +6,9 @@ services:
     networks:
       - backend_network
       - frontend_network
+    volumes:
+      - ./nest:/app # Map nest directory to /app in container
+      - /app/node_modules # Prevent overwriting node_modules
     depends_on:
       postgres:
         condition: service_healthy
@@ -40,6 +43,10 @@ services:
     extends:
       file: ./UI/docker-compose.yml
       service: frontend
+    # ADD THESE VOLUMES for frontend too
+    volumes:
+      - ./UI:/app # Map UI directory to /app in container
+      - /app/node_modules # Prevent overwriting node_modules
 
 volumes:
   postgres_data:
